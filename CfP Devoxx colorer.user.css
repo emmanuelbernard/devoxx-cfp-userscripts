@@ -1,0 +1,80 @@
+/* // ==UserScript==
+@name         CfP Devoxx colorer
+@namespace    https://emmanuelbernard.com
+@version      2.0
+@description  Remove AI summary and color key boxes for faster eye navigation
+@author       emmanuelbernard
+@match        *.cfp.dev
+// @match        <all_urls>
+@icon         https://www.google.com/s2/favicons?sz=64&domain=devoxxfr2024.cfp.dev
+@grant none
+// ==/UserScript== */
+
+/* Work around a iOS or USerscripts bug */
+div {
+    
+}
+
+/* Hide AI summary */
+#field_summary div {
+  display: none;
+  background-color: #f5ede1;
+}
+
+/* ********** Coloring for faster browsing and eye grabbing ***** */
+/*
+color triad
+#e5ede1 green
+#e1e5ed blue grey
+#ede1e5 light red
+
+Also yellow for attention and separation clarification
+#fcfcc9
+*/
+#description_field div {
+  background-color: #e5ede1
+}
+
+#field_elevatorPitch div {
+  background-color: #ede1e5;
+}
+
+#field_speakingBio div {
+  background-color: #e5ede1;
+}
+
+#field_speakingCredentials div {
+  background-color: #ede1e5;
+}
+
+#field_notes div {
+  background-color: #ede1e5;
+}
+
+#field_slideDeck div {
+  background-color: #e1e5ed;
+}
+
+/* Previous talk rating */
+cfp-speaker-ratings div {
+  background-color: #e1e5ed;
+}
+/* fix color leakage */
+cfp-speaker-ratings div td div {
+   background-color: #fff;
+}
+
+/* private comments */
+cfp-comments div {
+  background-color: #ede1e5;
+}
+
+/* public comments */
+cfp-feedback div {
+  background-color: #e5ede1;
+}
+
+/* Discussion title : experimental as there are no fixed id I think */
+#p-panel-3-titlebar {
+  background-color: #fcfcc9;
+}
