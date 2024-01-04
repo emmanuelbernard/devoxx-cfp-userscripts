@@ -7,3 +7,14 @@ Userscripts for the Devoxx CfP hosted on cfp.dev
 Known to work on <https://devoxxfr2024.cfp.dev> at 2024-01-04
 
 Known to work for Scriptbot (Firefox) and [Userscripts](https://github.com/quoid/userscripts) on Safari for macOS and iOS
+
+## How to install
+
+Use your favorite Userscripts extension for your favorite browsers.
+For example:
+
+* Stylebot for Firefox (does not allow script auto update)
+* [Userscripts](https://github.com/quoid/userscripts) on Safari for macOS and iOS (allows for auto update)
+
+Open <https://raw.githubusercontent.com/emmanuelbernard/devoxx-cfp-userscripts/main/cfp-devoxx.user.css>
+and copy the content as a new script in these extensions.
