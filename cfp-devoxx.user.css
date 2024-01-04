@@ -1,7 +1,7 @@
 /* // ==UserScript==
 @name         CfP Devoxx
 @namespace    https://emmanuelbernard.com
-@version      2.0
+@version      2.1
 @description  Remove AI summary and color key boxes for faster eye navigation
 @author       emmanuelbernard
 @updateURL    https://raw.githubusercontent.com/emmanuelbernard/devoxx-cfp-userscripts/main/cfp-devoxx.user.css
@@ -13,7 +13,6 @@
 
 /* Work around a iOS or USerscripts bug */
 div {
-    
 }
 
 /* Hide AI summary */
