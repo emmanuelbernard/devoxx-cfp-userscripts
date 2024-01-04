@@ -6,7 +6,7 @@
 @author       emmanuelbernard
 @updateURL    https://raw.githubusercontent.com/emmanuelbernard/devoxx-cfp-userscripts/main/cfp-devoxx.user.css
 @downloadURL  https://raw.githubusercontent.com/emmanuelbernard/devoxx-cfp-userscripts/main/cfp-devoxx.user.css
-@match        *.cfp.dev
+@match        https://*.cfp.dev/*
 @icon         https://www.google.com/s2/favicons?sz=64&domain=devoxxfr2024.cfp.dev
 @grant none
 // ==/UserScript== */
