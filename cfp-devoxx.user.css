@@ -16,7 +16,7 @@ div {
 }
 
 /* Hide AI summary */
-#field_summary div {
+.col-12 :has(.fa-robot) {
   display: none;
   background-color: #f5ede1;
 }
@@ -31,27 +31,27 @@ color triad
 Also yellow for attention and separation clarification
 #fcfcc9
 */
-#description_field div {
+.col-12 :has([cfptranslate="cfpApp.proposal.abstract"]) {
   background-color: #e5ede1
 }
 
-#field_elevatorPitch div {
+.col-12 :has([cfptranslate="cfpApp.proposal.elevatorPitch"]) {
   background-color: #ede1e5;
 }
 
-#field_speakingBio div {
+.col-12 .col-12 :has([cfptranslate="cfpApp.proposal.bio"]) {
   background-color: #e5ede1;
 }
 
-#field_speakingCredentials div {
+.col-12 .col-12 :has([cfptranslate="cfpApp.proposal.experience"]) {
   background-color: #ede1e5;
 }
 
-#field_notes div {
+.col-12 :has([cfptranslate="cfpApp.proposal.notes"]) {
   background-color: #ede1e5;
 }
 
-#field_slideDeck div {
+.col-12 :has([cfptranslate="cfpApp.proposal.slideDeck"]) {
   background-color: #e1e5ed;
 }
 
