@@ -1,7 +1,7 @@
 /* // ==UserScript==
 @name         CfP Devoxx
 @namespace    https://emmanuelbernard.com
-@version      2.2
+@version      2.3
 @description  Remove AI summary and color key boxes for faster eye navigation
 @author       emmanuelbernard
 @updateURL    https://raw.githubusercontent.com/emmanuelbernard/devoxx-cfp-userscripts/main/cfp-devoxx.user.css
@@ -74,7 +74,7 @@ cfp-feedback div {
   background-color: #e5ede1;
 }
 
-/* Discussion title : experimental as there are no fixed id I think */
-#p-panel-3-titlebar {
+/* Discussions header */
+.p-panel-header:has(.fa-comment-dots) {
   background-color: #fcfcc9;
 }
