@@ -34,9 +34,15 @@ Also yellow for attention and separation clarification
 .col-12 :has([cfptranslate="cfpApp.proposal.abstract"]) {
   background-color: #e5ede1
 }
+[cfptranslate="cfpApp.proposal.abstract"] + div {
+    overflow-x: auto;
+}
 
 .col-12 :has([cfptranslate="cfpApp.proposal.elevatorPitch"]) {
   background-color: #ede1e5;
+}
+[cfptranslate="cfpApp.proposal.elevatorPitch"] + div {
+    overflow-x: auto;
 }
 
 .col-12 .col-12 :has([cfptranslate="cfpApp.proposal.bio"]) {
@@ -49,6 +55,9 @@ Also yellow for attention and separation clarification
 
 .col-12 :has([cfptranslate="cfpApp.proposal.notes"]) {
   background-color: #ede1e5;
+}
+[cfptranslate="cfpApp.proposal.notes"] + div {
+    overflow-x: auto;
 }
 
 .col-12 :has([cfptranslate="cfpApp.proposal.slideDeck"]) {
